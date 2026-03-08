@@ -1,0 +1,16 @@
+.venv
+venv
+__pycache__
+.pytest_cache
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+build

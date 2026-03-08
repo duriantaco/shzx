@@ -1,0 +1,17 @@
+[project]
+name = "shzx"
+version = "0.1.0"
+description = "Human-readable approval guard for AI coding agents"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+py-modules = ["shzx", "analyzer", "handlers", "constants", "explaincmd", "hook", "install"]
+
+[project.scripts]
+shzx = "shzx:main"
+shzx-hook = "hook:main"
+shzx-install = "install:main"
+shzx-uninstall = "install:uninstall"
+explaincmd = "explaincmd:main"
